@@ -14,7 +14,7 @@ License:       MIT License
 URL:           http://nodejs.org
 Source0:       %{url}/dist/v%{version}/%{_base}-v%{version}.tar.gz
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-tmp
-Prefix:        /usr
+Prefix:        /opt/ripple
 BuildRequires: redhat-rpm-config
 BuildRequires: tar
 BuildRequires: gcc
